@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-	<link rel="manifest" href="img/favicons/site.webmanifest">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
-	<title>марте с 8 марта</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>марте с 8 марта</title>
+    <style>
+      html, body {
+        overflow: hidden; /* prevent scrollbars */
+        height: 100%; /* Ensure the html and body take up the full viewport height */
+        margin: 0; /* remove default body margins */
+      }
+      body {
+        position: fixed; /* fix the position */
+        top: 0; /* position at the top */
+        bottom: 0; /* position at the bottom */
+        left: 0; /* position at the left */
+        right: 0; /* position at the right */
+      }
+    </style>
 </head>
 <body>
 
-	<div id="petals"></div>
+    <div id="petals"></div>
 
-	<div class="card">
-		<div class="title">марточка, с 8 марта!</div>
-		<div class="text" id="text"></div>
-		<div class="author" id="author">от тимочки</div>
-	</div>
+    <div class="card">
+        <div class="title">марточка, с 8 марта!</div>
+        <div class="text" id="text"></div>
+        <div class="author" id="author">от тимочки</div>
+    </div>
 
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-	<script src="js/typed.min.js"></script>
-	<script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 </html>
